@@ -1,0 +1,48 @@
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local CSV files - root directory only
+/climate_data.csv
+/nasa_power_dakahlia.csv
+/nasa_power_dakahlia_data.csv
+
+# Local inspection files
+/hierarchy.txt
+
+# Large downloaded satellite data
+*.hdf
+*.h4
+*.h5
+*.hdf5
+*.hdf.aux.xml
+
+# Raster and scientific data
+*.tif
+*.tiff
+*.nc
+*.nc4
+*.grib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
